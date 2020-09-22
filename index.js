@@ -38,7 +38,7 @@ $.ajax({
     url:airtableUrl,
     method: "GET",
     headers: {
-        Authorization: "Bearer keywh5dAU4iaDJvbZ"
+        Authorization: "Bearer "
     },
     success: function(result) {
       for (let record of result.records){
